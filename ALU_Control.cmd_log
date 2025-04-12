@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "D:/Student/Downloads/Lab 3/Lab 3/AbdelrahmanNabil_221000309/ALU_Control.xst" -ofn "D:/Student/Downloads/Lab 3/Lab 3/AbdelrahmanNabil_221000309/ALU_Control.syr" 
+xst -intstyle ise -ifn "D:/Student/Downloads/Lab 3/Lab 3/AbdelrahmanNabil_221000309/ALU_Control.xst" -ofn "D:/Student/Downloads/Lab 3/Lab 3/AbdelrahmanNabil_221000309/ALU_Control.syr" 
+xst -intstyle ise -ifn "D:/Student/Documents/Downloads/Lab 4/Lab 4/Lab 4/AbdelrahmanNabil_221000309/ALU_Control.xst" -ofn "D:/Student/Documents/Downloads/Lab 4/Lab 4/Lab 4/AbdelrahmanNabil_221000309/ALU_Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "ALU_Control.ngc" ALU_Control.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_Control_map.ncd ALU_Control.ngd ALU_Control.pcf 
+par -w -intstyle ise -ol high -mt off ALU_Control_map.ncd ALU_Control.ncd ALU_Control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ALU_Control.twx ALU_Control.ncd -o ALU_Control.twr ALU_Control.pcf 
+xst -intstyle ise -ifn "D:/AbdelrahmanNabil_221000309/ALU_Control.xst" -ofn "D:/AbdelrahmanNabil_221000309/ALU_Control.syr" 

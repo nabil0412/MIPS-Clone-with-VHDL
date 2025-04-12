@@ -1,0 +1,246 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml ALU_Control.twx ALU_Control.ncd -o ALU_Control.twr
+ALU_Control.pcf
+
+Design file:              ALU_Control.ncd
+Physical constraint file: ALU_Control.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock ALUop<0> to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+oper<0>     |         6.494(F)|      SLOW  |         3.114(F)|      FAST  |oper_0_G          |   0.000|
+oper<1>     |         6.679(F)|      SLOW  |         3.163(F)|      FAST  |oper_1_G          |   0.000|
+oper<2>     |         6.707(F)|      SLOW  |         2.822(F)|      FAST  |oper_2_G          |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock ALUop<1> to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+oper<0>     |         6.006(F)|      SLOW  |         2.809(F)|      FAST  |oper_0_G          |   0.000|
+oper<1>     |         6.151(F)|      SLOW  |         2.854(F)|      FAST  |oper_1_G          |   0.000|
+oper<2>     |         6.767(F)|      SLOW  |         2.562(F)|      FAST  |oper_2_G          |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock fn<0> to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+oper<0>     |         6.154(F)|      SLOW  |         2.839(F)|      FAST  |oper_0_G          |   0.000|
+oper<1>     |         5.886(F)|      SLOW  |         2.754(F)|      FAST  |oper_1_G          |   0.000|
+oper<2>     |         5.709(F)|      SLOW  |         2.546(F)|      FAST  |oper_2_G          |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock fn<1> to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+oper<0>     |         6.201(F)|      SLOW  |         2.824(F)|      FAST  |oper_0_G          |   0.000|
+oper<1>     |         6.095(F)|      SLOW  |         2.694(F)|      FAST  |oper_1_G          |   0.000|
+oper<2>     |         5.713(F)|      SLOW  |         2.636(F)|      FAST  |oper_2_G          |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock fn<2> to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+oper<0>     |         6.029(F)|      SLOW  |         2.822(F)|      FAST  |oper_0_G          |   0.000|
+oper<1>     |         6.225(F)|      SLOW  |         2.661(F)|      FAST  |oper_1_G          |   0.000|
+oper<2>     |         5.705(F)|      SLOW  |         2.555(F)|      FAST  |oper_2_G          |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock fn<3> to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+oper<0>     |         6.410(F)|      SLOW  |         2.767(F)|      FAST  |oper_0_G          |   0.000|
+oper<1>     |         6.126(F)|      SLOW  |         2.738(F)|      FAST  |oper_1_G          |   0.000|
+oper<2>     |         5.868(F)|      SLOW  |         2.734(F)|      FAST  |oper_2_G          |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock fn<4> to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+oper<0>     |         6.135(F)|      SLOW  |         2.871(F)|      FAST  |oper_0_G          |   0.000|
+oper<1>     |         6.320(F)|      SLOW  |         2.920(F)|      FAST  |oper_1_G          |   0.000|
+oper<2>     |         6.244(F)|      SLOW  |         2.758(F)|      FAST  |oper_2_G          |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock fn<5> to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+oper<0>     |         6.552(F)|      SLOW  |         3.145(F)|      FAST  |oper_0_G          |   0.000|
+oper<1>     |         6.737(F)|      SLOW  |         3.194(F)|      FAST  |oper_1_G          |   0.000|
+oper<2>     |         6.661(F)|      SLOW  |         3.032(F)|      FAST  |oper_2_G          |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock ALUop<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ALUop<0>       |         |         |    1.385|    1.385|
+ALUop<1>       |         |         |    1.445|    1.445|
+fn<0>          |         |         |    0.687|    0.687|
+fn<1>          |         |         |    0.691|    0.691|
+fn<2>          |         |         |    0.683|    0.683|
+fn<3>          |         |         |    0.546|    0.546|
+fn<4>          |         |         |    0.922|    0.922|
+fn<5>          |         |         |    1.339|    1.339|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock ALUop<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ALUop<0>       |         |         |    1.716|    1.716|
+ALUop<1>       |         |         |    1.776|    1.776|
+fn<0>          |         |         |    1.018|    1.018|
+fn<1>          |         |         |    1.022|    1.022|
+fn<2>          |         |         |    1.014|    1.014|
+fn<3>          |         |         |    0.877|    0.877|
+fn<4>          |         |         |    1.253|    1.253|
+fn<5>          |         |         |    1.670|    1.670|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fn<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ALUop<0>       |         |         |    1.743|    1.743|
+ALUop<1>       |         |         |    1.803|    1.803|
+fn<0>          |         |         |    1.045|    1.045|
+fn<1>          |         |         |    1.049|    1.049|
+fn<2>          |         |         |    1.041|    1.041|
+fn<3>          |         |         |    0.904|    0.904|
+fn<4>          |         |         |    1.280|    1.280|
+fn<5>          |         |         |    1.697|    1.697|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fn<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ALUop<0>       |         |         |    1.627|    1.627|
+ALUop<1>       |         |         |    1.674|    1.674|
+fn<0>          |         |         |    0.916|    0.916|
+fn<1>          |         |         |    0.920|    0.920|
+fn<2>          |         |         |    0.912|    0.912|
+fn<3>          |         |         |    0.798|    0.798|
+fn<4>          |         |         |    1.268|    1.268|
+fn<5>          |         |         |    1.685|    1.685|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fn<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ALUop<0>       |         |         |    1.752|    1.752|
+ALUop<1>       |         |         |    1.812|    1.812|
+fn<0>          |         |         |    1.054|    1.054|
+fn<1>          |         |         |    1.058|    1.058|
+fn<2>          |         |         |    1.050|    1.050|
+fn<3>          |         |         |    0.913|    0.913|
+fn<4>          |         |         |    1.334|    1.334|
+fn<5>          |         |         |    1.751|    1.751|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fn<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ALUop<0>       |         |         |    1.530|    1.530|
+ALUop<1>       |         |         |    1.524|    1.524|
+fn<0>          |         |         |    0.766|    0.766|
+fn<1>          |         |         |    0.770|    0.770|
+fn<2>          |         |         |    0.762|    0.762|
+fn<3>          |         |         |    0.701|    0.701|
+fn<4>          |         |         |    1.171|    1.171|
+fn<5>          |         |         |    1.588|    1.588|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fn<4>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ALUop<0>       |         |         |    1.432|    1.432|
+ALUop<1>       |         |         |    1.492|    1.492|
+fn<0>          |         |         |    0.734|    0.734|
+fn<1>          |         |         |    0.738|    0.738|
+fn<2>          |         |         |    0.730|    0.730|
+fn<3>          |         |         |    0.593|    0.593|
+fn<4>          |         |         |    0.969|    0.969|
+fn<5>          |         |         |    1.386|    1.386|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fn<5>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ALUop<0>       |         |         |    1.063|    1.063|
+ALUop<1>       |         |         |    1.123|    1.123|
+fn<0>          |         |         |    0.365|    0.365|
+fn<1>          |         |         |    0.369|    0.369|
+fn<2>          |         |         |    0.361|    0.361|
+fn<3>          |         |         |    0.224|    0.224|
+fn<4>          |         |         |    0.600|    0.600|
+fn<5>          |         |         |    1.017|    1.017|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Sun Nov 03 12:20:01 2024 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4946 MB
+
+
+
