@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Uni/Term 5/Computer Architecture/AbdelrahmanNabil_221000309_NEW - Copy/ALU.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Uni/Term 5/Computer Architecture/AbdelrahmanNabil_221000309_NEW - Copy/ALU_Control.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Uni/Term 5/Computer Architecture/AbdelrahmanNabil_221000309_NEW - Copy/Adder.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Uni/Term 5/Computer Architecture/AbdelrahmanNabil_221000309_NEW - Copy/MIPS.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Uni/Term 5/Computer Architecture/AbdelrahmanNabil_221000309_NEW - Copy/PC.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Uni/Term 5/Computer Architecture/AbdelrahmanNabil_221000309_NEW - Copy/PC_adder_4.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Uni/Term 5/Computer Architecture/AbdelrahmanNabil_221000309_NEW - Copy/control_unit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Uni/Term 5/Computer Architecture/AbdelrahmanNabil_221000309_NEW - Copy/instruction_file.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Uni/Term 5/Computer Architecture/AbdelrahmanNabil_221000309_NEW - Copy/mem_file.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Uni/Term 5/Computer Architecture/AbdelrahmanNabil_221000309_NEW - Copy/mux_2_x_1.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Uni/Term 5/Computer Architecture/AbdelrahmanNabil_221000309_NEW - Copy/reg_dst_mux.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Uni/Term 5/Computer Architecture/AbdelrahmanNabil_221000309_NEW - Copy/reg_file.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Uni/Term 5/Computer Architecture/AbdelrahmanNabil_221000309_NEW - Copy/shifter_26_28.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Uni/Term 5/Computer Architecture/AbdelrahmanNabil_221000309_NEW - Copy/shifter_32_32.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Uni/Term 5/Computer Architecture/AbdelrahmanNabil_221000309_NEW - Copy/sign_extend.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+
