@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/Student/Documents/Downloads/Lab 4/Lab 4/Lab 4/AbdelrahmanNabil_221000309/shifter_32_32.xst" -ofn "D:/Student/Documents/Downloads/Lab 4/Lab 4/Lab 4/AbdelrahmanNabil_221000309/shifter_32_32.syr" 
+xst -intstyle ise -ifn "D:/Student/Downloads/Lab 4-20241124T104148Z-001/Lab 4/Lab 4/AbdelrahmanNabil_221000309/shifter_32_32.xst" -ofn "D:/Student/Downloads/Lab 4-20241124T104148Z-001/Lab 4/Lab 4/AbdelrahmanNabil_221000309/shifter_32_32.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "shifter_32_32.ngc" shifter_32_32.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o shifter_32_32_map.ncd shifter_32_32.ngd shifter_32_32.pcf 
+par -w -intstyle ise -ol high -mt off shifter_32_32_map.ncd shifter_32_32.ncd shifter_32_32.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml shifter_32_32.twx shifter_32_32.ncd -o shifter_32_32.twr shifter_32_32.pcf 
